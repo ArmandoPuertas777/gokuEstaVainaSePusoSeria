@@ -1,0 +1,101 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f4a261, #f9dcc4);
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #f4a261;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding-top: 6rem; /* Espacio para el encabezado fijo */
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #e76f51;
+    margin-bottom: 0.5rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: #264653;
+    margin-bottom: 2rem;
+}
+
+main .cta-button {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main .cta-button:hover {
+    background-color: #21867a;
+}
+
+/* Indicadores de confianza */
+.trust-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.trust-indicators div {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trust-indicators div h3 {
+    font-size: 2rem;
+    color: #e76f51;
+    margin: 0;
+}
+
+.trust-indicators div p {
+    margin: 0.5rem 0 0;
+    color: #333;
+}
