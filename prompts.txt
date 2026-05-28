@@ -3,3 +3,5 @@ este sitio web se tiene que tratar de una clinica que muestre profesionalidad, q
 por ahora solo trabajaremos con html y css/styles.css en el sitio web en el encabezado quiero que agreges el nombre de "SaludPlus", que tenga menu de navegacion con enlaces a las diferentes secciones de la pagina (inicio, especialidades, medicos, obras sociales, contacto). el menu debe permanecer visible al momento de scrollear.
 
 aqui necesito que de fondo haya un color casi del mismo del encabezado pero con un degradado que mientras baje que vaya volviendo mas claro, agrega un titulo pricipal y a parte un subtitulo descriptivo, incorpora un boton de llamada a la accion "solicitar tuno" y que esas mismas solicitudes de turno se agregen al archivo "turnos.css", agrega indicaciones de confianza como por ejemplo los años de experiencia, pascientes atendidos, cantidad de especialidades etc.
+
+contamos con 6 especialidades medicas, clinica general, cardiologia, pediatra, ginecologia, traumatologia y neurologia. cada una de estas especialidades debe de contener un simbolo que identifique dicha especialidad y su respectivo nombre y una breve descripcion
